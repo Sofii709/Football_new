@@ -1,0 +1,159 @@
+.wrapper {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.flex-around {
+    display: flex;
+    justify-content: space-between;
+}
+
+.white_container {
+    background-color: #f3f3f3;
+}
+
+.container {
+    background-color: white;
+}
+
+.topline {
+    display: flex;
+}
+
+.top {
+    padding: 15px 15px;
+}
+
+.top h1,
+p {
+    padding: 0 7px;
+}
+
+.top p {
+    font-size: 14px;
+    line-height: 7px;
+    color: #5a5a5a
+}
+
+.top h1 {
+    font-size: 24px;
+    line-height: 7px;
+    text-transform: uppercase;
+    color: #39930d;
+    font-weight: bold;
+}
+
+.text {
+    max-height: 50px;
+}
+
+.toplist ul {
+    list-style: none;
+    column-gap: 20px;
+}
+
+.toplist img {
+    padding-right: 10px;
+}
+
+.toplist a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 7px;
+    color: #5a5a5a;
+    font-weight: bold;
+    transition: all 1s ease;
+}
+
+.toplist a:hover {
+    color: #39930d;
+}
+
+.main {
+    padding: 5px 15px;
+}
+
+.main img {
+    width: 100%;
+}
+
+.mains img {
+    width: 100%;
+}
+
+.mains {
+    padding: 5px 15px;
+    column-gap: 10px;
+}
+
+.nav {
+    min-width: 35%;
+}
+
+.info ul {
+    list-style: none;
+}
+
+.info li:first-child {
+    font-size: 18px;
+    line-height: 7px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #39930d;
+    padding: 15px 19px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
+
+.info li {
+    margin-left: 20px;
+}
+
+.info a {
+    font-size: 14px;
+    line-height: 30px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #343434;
+    transition: all 1s ease;
+}
+
+.info a:hover {
+    color: #39930d;
+}
+
+.about {
+    padding-left: 18px;
+}
+
+.about h2 {
+    font-size: 25px;
+    line-height: 7px;
+    color: #39930d;
+    font-weight: bold;
+}
+
+.about p {
+    font-size: 15px;
+    line-height: 21px;
+    color: #343434;
+}
+
+footer {
+    height: 40px;
+    background-color: #38930c;
+    padding: 0px 135px;
+}
+
+footer p {
+    font-size: 14px;
+    line-height: 7px;
+    color: #ffffff;
+}
+
+.image {
+    column-gap: 9px;
+    max-height: 20px;
+    padding-top: 9px;
+}
