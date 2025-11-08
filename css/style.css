@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: Arial;
 }
@@ -22,34 +27,33 @@ body {
 
 .topline {
     display: flex;
-}
-
-.topline img {
     padding-top: 10px;
 }
 
-.top {
-    padding: 10px 15px 0px 15px;
+.topline img {
+    padding-top: 5px;
 }
 
-.top h1,
+.top {
+    padding: 10px 15px 10px 15px;
+}
+
 .top p {
-    padding: 0 7px;
+    padding-left: 7px;
     margin: 0;
 }
 
 .top a {
     font-size: 14px;
-    line-height: 7px;
     color: #5a5a5a;
     text-decoration: none;
 }
 
-.top h1>a {
+.top .h1>a {
     font-size: 24px;
-    line-height: 7px;
     text-transform: uppercase;
     color: #39930d;
+    font-weight: bold;
 }
 
 .text {
@@ -72,7 +76,6 @@ body {
     padding: 10px;
     text-decoration: none;
     font-size: 14px;
-    line-height: 7px;
     color: #5a5a5a;
     font-weight: bold;
     transition: all 1s ease;
@@ -82,8 +85,12 @@ body {
     color: #39930d;
 }
 
+main {
+    padding: 0px 15px 0px 15px;
+}
+
 .main {
-    padding: 5px 15px;
+    padding: 5px 0px;
 }
 
 .main img {
@@ -96,7 +103,8 @@ body {
 
 .mains {
     column-gap: 10px;
-    padding: 5px 15px;
+    padding-top: 5px;
+    padding-bottom: 30px;
 }
 
 .mains div {
@@ -109,6 +117,7 @@ body {
 
 .info {
     padding-top: 10px;
+    padding-bottom: 40px;
 }
 
 .info ul {
@@ -128,11 +137,12 @@ body {
 
 .info li {
     margin-left: 20px;
+    padding-top: 15px;
 }
 
 .info a {
     font-size: 14px;
-    line-height: 30px;
+    line-height: 0.5em;
     text-decoration: underline;
     text-transform: uppercase;
     color: #343434;
@@ -148,9 +158,8 @@ body {
     padding-bottom: 35px;
 }
 
-.about h2 {
+.about h1 {
     font-size: 25px;
-    line-height: 7px;
     color: #39930d;
     font-weight: bold;
 }
@@ -159,11 +168,11 @@ body {
     font-size: 15px;
     line-height: 21px;
     color: #343434;
-    padding: 0;
+    padding-top: 15px;
 }
 
 footer {
-    height: 40px;
+    min-height: 40px;
     background-color: #38930c;
 }
 
@@ -172,8 +181,8 @@ footer {
 }
 
 footer p {
+    padding-top: 9px;
     font-size: 14px;
-    line-height: 7px;
     color: #ffffff;
 }
 
