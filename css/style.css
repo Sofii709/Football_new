@@ -27,7 +27,7 @@ body {
 
 .topline {
     display: flex;
-    padding-top: 10px;
+    column-gap: 10px;
 }
 
 .topline img {
@@ -35,11 +35,10 @@ body {
 }
 
 .top {
-    padding: 10px 15px 10px 15px;
+    padding: 15px 15px 10px 15px;
 }
 
 .top p {
-    padding-left: 7px;
     margin: 0;
 }
 
@@ -66,14 +65,11 @@ body {
     margin-top: 10px;
 }
 
-.toplist img {
-    padding-right: 10px;
-}
-
 .toplist a {
+    column-gap: 10px;
     display: flex;
     align-items: center;
-    padding: 10px;
+    padding-right: 10px;
     text-decoration: none;
     font-size: 14px;
     color: #5a5a5a;
@@ -89,10 +85,6 @@ main {
     padding: 0px 15px 0px 15px;
 }
 
-.main {
-    padding: 5px 0px;
-}
-
 .main img {
     width: 100%;
 }
@@ -104,7 +96,6 @@ main {
 .mains {
     column-gap: 10px;
     padding-top: 5px;
-    padding-bottom: 30px;
 }
 
 .mains div {
@@ -116,15 +107,17 @@ main {
 }
 
 .info {
-    padding-top: 10px;
-    padding-bottom: 40px;
+    column-gap: 18px;
+    padding-top: 31px;
+    padding-bottom: 32px;
 }
 
 .info ul {
     list-style: none;
 }
 
-.info li:first-child {
+.nav p {
+    max-width: 300px;
     font-size: 18px;
     text-transform: uppercase;
     color: #ffffff;
@@ -132,12 +125,12 @@ main {
     background-color: #39930d;
     padding: 13px 19px;
     margin-left: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .info li {
     margin-left: 20px;
-    padding-top: 13px;
+    padding-bottom: 13px;
 }
 
 .info a {
@@ -153,35 +146,26 @@ main {
     color: #39930d;
 }
 
-.about {
-    padding-left: 18px;
-    padding-bottom: 35px;
-}
-
 .about h1 {
     font-size: 25px;
     color: #39930d;
     font-weight: bold;
+    padding-bottom: 15px;
 }
 
 .about p {
     font-size: 15px;
     line-height: 21px;
     color: #343434;
-    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 footer {
-    min-height: 40px;
+    padding: 15px 0;
     background-color: #38930c;
 }
 
-.footer {
-    padding: 0px 15px;
-}
-
 footer p {
-    padding-top: 9px;
     font-size: 14px;
     color: #ffffff;
 }
@@ -189,5 +173,4 @@ footer p {
 .image {
     column-gap: 9px;
     max-height: 20px;
-    padding-top: 9px;
 }
