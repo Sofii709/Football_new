@@ -114,6 +114,7 @@ main {
 
 .info ul {
     list-style: none;
+    padding-left: 20px;
 }
 
 .nav p {
@@ -129,7 +130,6 @@ main {
 }
 
 .info li {
-    margin-left: 20px;
     padding-bottom: 13px;
 }
 
