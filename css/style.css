@@ -60,14 +60,13 @@ body {
 
 .toplist ul {
     list-style: none;
-    column-gap: 20px;
+    column-gap: 25px;
 }
 
 .toplist a {
     column-gap: 10px;
     display: flex;
     align-items: center;
-    padding-right: 10px;
     text-decoration: none;
     font-size: 14px;
     color: #5a5a5a;
