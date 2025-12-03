@@ -7,6 +7,10 @@ body {
     font-family: Arial;
 }
 
+a {
+        cursor: url(../img/cursor.cur), default;
+}
+
 .wrapper {
     margin: 0 auto;
     max-width: 973px;
