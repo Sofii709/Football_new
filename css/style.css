@@ -3,17 +3,29 @@
     padding: 0;
 }
 
+html {
+    font-size: 0.8px;
+}
+
 body {
     font-family: Arial;
 }
 
 a {
-        cursor: url(../img/cursor.cur), default;
+    cursor: url(../img/cursor.cur), default;
 }
 
 .wrapper {
     margin: 0 auto;
     max-width: 973px;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.gap {
+    gap: 10px;
 }
 
 .flex-around {
@@ -88,15 +100,22 @@ main {
 
 .main img {
     width: 100%;
+    object-fit: cover;
+    min-height: 200px;
+    object-position: 80%;
 }
 
 .mains img {
     width: 100%;
+    display: flex;
+    align-items: center;
 }
 
 .mains {
+    display: grid;
     column-gap: 10px;
     padding-top: 5px;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .mains div {
@@ -105,6 +124,7 @@ main {
 
 .nav {
     min-width: 300px;
+    max-height: 400px;
 }
 
 .info {
@@ -130,7 +150,7 @@ main {
 }
 
 .info li {
-    padding-bottom: 13px;
+    padding-bottom: 20px;
 }
 
 .info a {
@@ -173,4 +193,34 @@ footer p {
 .image {
     column-gap: 9px;
     max-height: 20px;
+}
+
+@media screen and (min-width: 495px) {
+    .about {
+        width: 65%;
+    }
+}
+
+@media screen and (min-width: 550px) {
+    .mains {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    html {
+        font-size: 0.9px;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    html {
+        font-size: 1px;
+    }
+}
+
+@media screen and (min-width:1920px) {
+    html {
+        font-size: 1.4px;
+    }
 }
