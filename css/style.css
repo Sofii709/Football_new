@@ -17,7 +17,7 @@ a {
 
 .wrapper {
     margin: 0 auto;
-    max-width: 973px;
+    max-width: 973rem;
 }
 
 .wrap {
@@ -25,7 +25,7 @@ a {
 }
 
 .gap {
-    gap: 10px;
+    gap: 10rem;
 }
 
 .flex-around {
@@ -44,11 +44,11 @@ a {
 .topline {
     display: flex;
     align-items: center;
-    column-gap: 10px;
+    column-gap: 10rem;
 }
 
 .top {
-    padding: 15px 15px 10px 15px;
+    padding: 15rem 15rem 10rem 15rem;
     display: flex;
     align-items: center;
 }
@@ -58,33 +58,33 @@ a {
 }
 
 .top a {
-    font-size: 14px;
+    font-size: 14rem;
     color: #5a5a5a;
     text-decoration: none;
 }
 
 .top .h1>a {
-    font-size: 24px;
+    font-size: 24rem;
     text-transform: uppercase;
     color: #39930d;
     font-weight: bold;
 }
 
 .text {
-    max-height: 50px;
+    max-height: 50rem;
 }
 
 .toplist ul {
     list-style: none;
-    column-gap: 25px;
+    column-gap: 25rem;
 }
 
 .toplist a {
-    column-gap: 10px;
+    column-gap: 10rem;
     display: flex;
     align-items: center;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 14rem;
     color: #5a5a5a;
     font-weight: bold;
     transition: all 1s ease;
@@ -95,13 +95,13 @@ a {
 }
 
 main {
-    padding: 0px 15px 0px 15px;
+    padding: 0rem 15rem 0rem 15rem;
 }
 
 .main img {
     width: 100%;
     object-fit: cover;
-    min-height: 200px;
+    min-height: 200rem;
     object-position: 80%;
 }
 
@@ -113,8 +113,8 @@ main {
 
 .mains {
     display: grid;
-    column-gap: 10px;
-    padding-top: 5px;
+    column-gap: 10rem;
+    padding-top: 5rem;
     grid-template-columns: repeat(2, 1fr);
 }
 
@@ -123,38 +123,38 @@ main {
 }
 
 .nav {
-    min-width: 300px;
-    max-height: 400px;
+    min-width: 300rem;
+    max-height: 400rem;
 }
 
 .info {
-    column-gap: 18px;
-    padding-top: 31px;
-    padding-bottom: 32px;
+    column-gap: 18rem;
+    padding-top: 31rem;
+    padding-bottom: 32rem;
 }
 
 .info ul {
     list-style: none;
-    padding-left: 20px;
-    padding-top: 15px;
+    padding-left: 20rem;
+    padding-top: 15rem;
 }
 
 .nav p {
-    font-size: 18px;
+    font-size: 18rem;
     text-transform: uppercase;
     color: #ffffff;
     font-weight: bold;
     background-color: #39930d;
-    padding: 13px 19px;
-    margin-left: 0px;
+    padding: 13rem 19rem;
+    margin-left: 0rem;
 }
 
 .info li {
-    padding-bottom: 20px;
+    padding-bottom: 20rem;
 }
 
 .info a {
-    font-size: 14px;
+    font-size: 14rem;
     line-height: 0.5em;
     text-decoration: underline;
     text-transform: uppercase;
@@ -167,32 +167,32 @@ main {
 }
 
 .about h1 {
-    font-size: 25px;
+    font-size: 25rem;
     color: #39930d;
     font-weight: bold;
-    padding-bottom: 15px;
+    padding-bottom: 15rem;
 }
 
 .about p {
-    font-size: 15px;
-    line-height: 21px;
+    font-size: 15rem;
+    line-height: 1.4em;
     color: #343434;
-    padding-bottom: 15px;
+    padding-bottom: 15rem;
 }
 
 footer {
-    padding: 15px 0;
+    padding: 15rem 0;
     background-color: #38930c;
 }
 
 footer p {
-    font-size: 14px;
+    font-size: 14rem;
     color: #ffffff;
 }
 
 .image {
-    column-gap: 9px;
-    max-height: 20px;
+    column-gap: 9rem;
+    max-height: 20rem;
 }
 
 @media screen and (min-width: 495px) {
