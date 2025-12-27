@@ -185,6 +185,10 @@ footer {
     background-color: #38930c;
 }
 
+.line {
+    padding: 0 15rem;
+}
+
 footer p {
     font-size: 14rem;
     color: #ffffff;
